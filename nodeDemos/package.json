@@ -1,0 +1,16 @@
+{
+  "name": "nodedemos",
+  "version": "1.0.0",
+  "description": "test demo",
+  "main": "http.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "run test"
+  },
+  "author": "lijw",
+  "license": "ISC"
+}

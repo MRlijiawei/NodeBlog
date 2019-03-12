@@ -1,0 +1,7 @@
+步骤：
+1.安装express
+2.npm init（package.json）
+3.node XXX.js运行
+
+4.mysql安装npm install mysql -S 
+然后引入mysql  另外req.body需要对表单数据进行解析 所以还需引入body-parser
