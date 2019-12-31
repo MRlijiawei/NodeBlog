@@ -1,0 +1,4 @@
+.content { padding-top: 50px; }
+.header{box-shadow: 0 3px 6px rgba(2, 2, 2, 0.1);
+    z-index: 100;position: fixed;
+    width: 100%;}
