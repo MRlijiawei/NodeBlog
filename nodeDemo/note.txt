@@ -1,0 +1,31 @@
+1.node -e
+	http服务器建立
+2.supervisor
+3.异步式I/O与事件式编程
+	读取文件
+	EventEmitter - 事件队列
+	模块（ Module-exports，require）和包（ Package-package.json与npm），单次加载 -- commonJS规范
+	调试 node debug
+	远程调试
+		node --debug[=port] script.js
+		node --debug-brk[=port] script.js	
+4.核心 库
+	全局对象global
+		process属性：stdin,stdout,nextTick，platform，pid，execPath，memoryUsage()
+		console：trace()调用栈
+	util工具
+		inherits(constructor, superConstructor)继承
+		inspect转字符，等
+	events
+		EventEmitter----on(),emit(),once(),removeListener(),removeAllListeners()，.emit('error')
+	文件系统fs
+		readFile(),readFileSync(),open(),read()等等等
+	HTTP和客户端
+		http---Server（request，connection，close），ServerRequest（data,end，close），获取请求内容，ServerResponse，request，get，ClientRequest，ClientResponse
+
+5.开发
+	http
+	express
+	路由
+	模板引擎
+	数据库--Mongodb
