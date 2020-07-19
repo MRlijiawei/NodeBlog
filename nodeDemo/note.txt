@@ -27,5 +27,27 @@
 	http
 	express
 	路由
+		路由规则，路径匹配，rest风格（get,post...），控制权转移（next）
 	模板引擎
+		render,ejs(<% code %>,<%= code %>,<%- code %>),layout,片段视图，视图助手
 	数据库--Mongodb
+		会话（cookie，session）
+		权限（路由中间件，即next()）
+
+6.进阶
+	模块加载机制（require）
+		模块类型：核心模块，文件模块
+		加载方式：按路径加载，查找node_modules
+		加载缓存（通过文件名缓存加载的模块）
+		加载顺序
+	控制流
+		for循环和forEach。异步事件流中for会导致里边i都是循环条件最后一个
+		async，（streamlinejs和jscex），（eventproxy）
+	应用部署
+		NODE_ENV=production
+		错误日志
+		cluster模块（跨进程端口复用），（child_process）
+		自启脚本
+		共享80端口（虚拟主机）--Nginx反向代理
+
+util.inherits继承
